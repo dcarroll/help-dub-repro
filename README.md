@@ -31,7 +31,7 @@ USAGE
 <!-- usagestop -->
 <!-- commands -->
 * [`testing djc:hello:org [FILE]`](#testing-djchelloorg-file)
-* [`testing djc:hello:test [FILE]`](#testing-djchellotest-file)
+* [`testing djc:hello:test`](#testing-djchellotest)
 
 ## `testing djc:hello:org [FILE]`
 
@@ -61,17 +61,15 @@ EXAMPLES
 
 _See code: [src/commands/djc/hello/org.ts](https://github.com/dcarroll/testing/blob/v0.0.0/src/commands/djc/hello/org.ts)_
 
-## `testing djc:hello:test [FILE]`
+## `testing djc:hello:test`
 
-Prints a greeting and your org id(s)!
+Used to test the help output.
 
 ```
 USAGE
-  $ testing djc:hello:test [FILE]
+  $ testing djc:hello:test
 
 OPTIONS
-  -f, --force                                      example boolean flag
-  -n, --name=name                                  name to print
   -u, --targetusername=targetusername              username or alias for the target org; overrides default target org
   -v, --targetdevhubusername=targetdevhubusername  username or alias for the dev hub org; overrides default dev hub org
   --apiversion=apiversion                          override the api version used for api requests made by this command

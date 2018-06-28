@@ -1,0 +1,6 @@
+{
+  "commandDescription": "Used to test the help output.",
+  "nameFlagDescription": "name to print",
+  "forceFlagDescription": "example boolean flag",
+  "errorNoOrgResults": "Just a lame error message."
+}
